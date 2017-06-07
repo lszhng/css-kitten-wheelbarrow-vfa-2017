@@ -1,6 +1,8 @@
 /* Select the image with a class of kitty-1 */
+<img src="kitty-1.png" class="kitty-1">
+/*__write_selector_here__*/
 
-/*__write_selector_here__*/ {
+.kitty-1{
   position: absolute;
   z-index: 1;
   top: 276px;
@@ -8,8 +10,9 @@
 }
 
 /* Select the image with id of kitty-2 */
-
-/*__write_selector_here__*/ {
+<img ="kitty-2.png" id="kitty-2">
+/*__write_selector_here__*/
+#kitty-2{
   position: absolute;
   z-index: 2;
   top: 212px;
@@ -17,8 +20,11 @@
 }
 
 /* Select the image inside the element with an id of basket (using its descendent relationship) */
+<ul id = "Kitty-3">
+  <li> src="kitty-3.png" </li>
+</ul>
 
-/*__write_selector_here__*/ {
+/*__write_selector_here__*/ #Kitty-3 li{
   position: absolute;
   z-index: 5;
   top: 291px;
@@ -35,8 +41,10 @@
 }
 
 /* Select the image that has an attribute value matching "Kitty 5" (using attribute selector) */
+<img src="kitty-5.png" alt="Kitty 5">
 
-/*__write_selector_here__*/ {
+/*__write_selector_here__*/
+img[alt="Kitty 5"]{
   position: absolute;
   z-index: 3;
   top: 217px;
